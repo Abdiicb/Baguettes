@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #b22222;
+}
+
+.contenedor {
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: flex-start;        
+    max-width: 900px;
+    margin: auto;
+    border: 2px solid #b22222;      
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+
+form {
+    flex: 1;
+    margin-right: 20px;
+}
+
+label, p {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.ingredientes label {
+    display: inline-block;
+    width: 45%;
+    margin: 5px 0;
+}
+
+#cantidad {
+    width: 60px;
+}
+
+#total {
+    font-size: 20px;
+    font-weight: bold;
+    color: #006400;
+    margin-top: 15px;
+}
+
+
+.imagenes {
+    flex: 0 0 250px;    
+    text-align: center;
+}
+
+.imagenes img {
+    width: 100%;       
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 2px solid #b22222;
+}
